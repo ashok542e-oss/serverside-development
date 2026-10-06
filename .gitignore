@@ -1,0 +1,20 @@
+# Root gitignore
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore large/environment files in Laravel projects
+**/vendor/
+**/node_modules/
+**/.env
+**/.env.backup
+**/.env.production
+**/storage/framework/cache/data/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*
+**/storage/logs/*
+**/database/database.sqlite
+**/.phpunit.result.cache
+**/.phpunit.cache
+**/.idea/
+**/.vscode/
